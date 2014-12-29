@@ -2,10 +2,26 @@
 <html>
 	<head>
 		<title>Compass Example</title>
-		<link href="style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<img src="compassneedle.png" id="needle">
+			<!-- Start of first page I -->
+		<div data-role="page" id="page1">
+			<!-- Header -->
+			<div data-role="header">
+				<h1>Compass</h1>
+
+			</div>
+			<!-- /header -->
+			<!-- Content    -->
+			<div data-role="content">
+				<h3>Content</h3>
+					<img src="compass.jpg" id="compass">
+					<img src="needle.png" id="needle">
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /page -->
 		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 		<script type="text/javascript" charset="utf-8" src="compass.js"></script>
 	</body>
