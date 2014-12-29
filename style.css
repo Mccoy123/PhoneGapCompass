@@ -1,7 +1,14 @@
+#compass {
+
+	position: absolute;
+	top: 148px;
+	left: 27px;
+	z-index: 1;
+}
 #needle {
 
 	position: absolute;
-	top: 8px;
-	left: 98px;
+	top: 108px;
+	left: 0px;
 	z-index: 10;
 }
